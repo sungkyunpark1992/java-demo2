@@ -1,5 +1,9 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        Book harrypotter = new Book();
+        System.out.println(harrypotter.getContents());
+        harrypotter.updateContents("Hi, Harry");
+        System.out.println(harrypotter.getContents());
     }
+
 }
